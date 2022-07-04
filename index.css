@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-image{
+     background-image: url(/GettyImages-904105652_1680\ x\ 885\ px.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+@media  only screen and (max-width: 400px ) {
+      div {
+        max-width: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+}
